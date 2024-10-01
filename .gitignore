@@ -1,0 +1,277 @@
+#########################################
+# Editor temporary/working/backup files #
+.#*
+*\#*\#
+[#]*#
+*~
+*$
+*.bak
+*flymake*
+*.iml
+*.kdev4
+*.log
+*.swp
+*.pdb
+*.zip
+.project
+.pydevproject
+.settings
+.idea
+.vagrant
+.noseids
+.ipynb_checkpoints
+.tags
+.cache/
+.vscode/
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.pxi
+*.o
+*.py[ocd]
+*.so
+.build_cache_dir
+.mesonpy-native-file.ini
+MANIFEST
+compile_commands.json
+debug
+.debug
+
+# Python files #
+################
+# setup.py working directory
+build
+# sphinx build directory
+doc/_build
+# setup.py dist directory
+dist
+# Egg metadata
+*.egg-info
+.eggs
+.pypirc
+# type checkers
+pandas/py.typed
+
+# pyenv
+.python-version
+
+# tox testing tool
+.tox
+# rope
+.ropeproject
+# wheel files
+*.whl
+**/wheelhouse/*
+pip-wheel-metadata
+# coverage
+.coverage
+coverage.xml
+coverage_html_report
+.mypy_cache
+*.pytest_cache
+.ruff_cache
+# hypothesis test database
+.hypothesis/
+__pycache__
+# pytest-monkeytype
+monkeytype.sqlite3
+# meson editable install folder
+.mesonpy
+
+
+# OS generated files #
+######################
+.directory
+.gdb_history
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Data files #
+##############
+*.dta
+*.xpt
+*.h5
+pandas/io/*.dat
+pandas/io/*.json
+scikits
+
+# Generated Sources #
+#####################
+!skts.c
+*.c
+*.cpp
+!pandas/_libs/src/**/*.c
+!pandas/_libs/src/**/*.h
+!pandas/_libs/include/**/*.h
+
+# Unit / Performance Testing #
+##############################
+asv_bench/env/
+asv_bench/html/
+asv_bench/results/
+asv_bench/pandas/
+test-data.xml
+
+# Documentation generated files #
+#################################
+doc/source/generated
+doc/source/user_guide/styled.xlsx
+doc/source/reference/api
+doc/source/_static/*.html
+doc/source/vbench
+doc/source/vbench.rst
+doc/source/index.rst
+doc/build/html/index.html
+# Windows specific leftover:
+doc/tmp.sv
+env/
+doc/source/savefig/
+
+# Interactive terminal generated files #
+########################################
+.jupyterlite.doit.db
+
+*.bundle.*
+lib/
+node_modules/
+*.egg-info/
+.ipynb_checkpoints
+*.tsbuildinfo
+
+# Created by https://www.gitignore.io/api/python
+# Edit at https://www.gitignore.io/?templates=python
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# OS X stuff
+*.DS_Store
+
+# End of https://www.gitignore.io/api/python
+
+_temp_extension
+junit.xml
+[uU]ntitled*
+notebook/static/*
+!notebook/static/favicons
+notebook/labextension
+notebook/schemas
+docs/source/changelog.md
+docs/source/contributing.md
+
+# playwright
+ui-tests/test-results
+ui-tests/playwright-report
+
+# VSCode
+.vscode
+
+# RTC
+.jupyter_ystore.db
+
+# yarn >=2.x local files
+.yarn/*
+.pnp.*
+ui-tests/.yarn/*
+ui-tests/.pnp.*
